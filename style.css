@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/Helvetica.ttf);
+}
+
+* {
+  font-family: "Helvetica";
+}
+
+.container {
+  max-width: 430px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container na tela */
+  padding: 20px; /* Espaçamento interno do container */
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.card {
+  background-color: #fff;
+  color: black;
+  width: 380px; /* Ajuste a largura do card */
+  margin: 20px auto; /* Centraliza o card na tela */
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Arredonda os cantos do card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+  color: black;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #131b53;
+  font-size: 18px;
+  margin: 15px 0;
+  padding: 0 10px;
+}
+
+.botoes {
+  display: flex; /* Organiza os botões em linha */
+  flex-wrap: wrap; /* Permite que os botões sejam quebrados em várias linhas */
+  justify-content: space-between; /* Distribui os botões uniformemente */
+  margin: 10px 10px;
+}
+
+.botao {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #dce3e5;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Efeito de hover */
+}
+
+.botao:hover {
+  background-color: #0056b3; /* Cor de hover */
+}
+
+.menu {
+}
+
+.panel-conitainer {
+
+}
+
+.panel-heading {
+  background-color: #E06939;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+
+}
+
+.panel-heading a {
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.panel-body {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.panel-body a {
+  text-decoration: none;
+  color: #131b53;
+}
+
+@media (min-width: 768px) {
+  .menu {
+  }
+  .card {
+    display: none;
+  }
+}
