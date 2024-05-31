@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prefeitua Municipal de Nova Iguaçu</title>
-  </head>
-  <body>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Cidade</a></li>
-        <li><a href="#">Secretarias</a></li>
-        <li><a href="#">Diario Oficial </a></li>
-        <img src="/public/logo.png" alt="" />
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Transparencia</a></li>
-        <li><a href="#">Ouvidoria</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <main>
-        <div class="card">
-          <h2>Serviços Essenciais</h2>
-          <div class="botoes">
-            <a href="#" class="botao"
-              ><img src="/public/Vector.png" alt="IPTU 2024" />IPTU 2024</a
-            >
-            <a href="#" class="botao"
-              ><img src="/public/nfe.png" alt="Nota Fiscal Eletrônica" />Nota
-              Fiscal Eletrônica</a
-            >
-            <a href="#" class="botao"
-              ><img
-                src="/public/portal.png"
-                alt="Portal do Contribuinte"
-              />Portal do Contribuinte</a
-            >
-          </div>
-        </div>
 
-        <div class="panels-container">
-          <div class="panel-heading">
-            <a href=""><img src="" alt="">Painel de Serviços</a>
-            <a href=""><img src="" alt="">Outros Serviços</a>
-          </div>
-          <div class="panel-body">
-            <a href=""><img src="" alt="">Remoção de Entulho</a>
-            <a href=""><img src="" alt="">Iluminação Pública</a>
-            <a href=""><img src="" alt="">Combate ao Aedes Aegypti</a>
-            <a href=""><img src="" alt="">Reparo de buracos</a>
-            <a href=""><img src="" alt="">Limpeza de Ruas e Avenidas</a>
-            <a href=""><img src="" alt="">Sinais de Trânsito com Defeitos</a>
-            <a href=""><img src="" alt="">Diário Oficial</a>
-            <a href=""><img src="" alt="">Controle de Roedores</a>
-            <a href=""><img src="" alt="">Assistência Social</a>
-          </div>
-        </div>
-      </main>
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prefeitua Municipal de Nova Iguaçu</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="public/img/logo.png" alt="Logo da prefeitura">
     </div>
-    <footer></footer>
-  </body>
+
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="/Protótipo Site Prefeitura mobile/index.html">Cidade</a>
+      <a href="#home">Secretarias</a>
+      <a href="#home">Diario Oficial</a>
+      <a href="#home">Noticia</a>
+      <a href="#home">Transparencia</a>
+      <a href="#home">Ouvidoria</a>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+      <div class="card">
+        <h2>Serviços Essenciais</h2>
+        <div class="botoes">
+          <a href="#" class="botao"><img src="/public/img/Vector.png" alt="IPTU 2024" />IPTU 2024</a>
+          <a href="#" class="botao"><img src="/public/img/nfe.png" alt="Nota Fiscal Eletrônica" />Nota
+            Fiscal Eletrônica</a>
+          <a href="#" class="botao"><img src="/public/img/portal.png" alt="Portal do Contribuinte" />Portal do
+            Contribuinte</a>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel-heading">
+          <a href="" class="panel-btn"><img src="public/img/engrenagem.png" alt="">Painel de Serviços</a>
+          <a href="" class="panel-btn"><img src="public/img/+.png" alt="">Outros Serviços</a>
+        </div>
+        <div class="panel-body">
+          <a href="" class="panel-btn"><img src="public/img/truck.png" alt="">Remoção de Entulho</a>
+          <a href="" class="panel-btn"><img src="public/img/poste.png" alt="">Iluminação Pública</a>
+          <a href="" class="panel-btn"><img src="public/img/dengue.png" alt="">Combate ao Aedes Aegypti</a>
+          <a href="" class="panel-btn"><img src="public/img/carrinho.png" alt="">Reparo de buracos</a>
+          <a href="" class="panel-btn"><img src="public/img/lixeiro.png" alt="">Limpeza de Ruas e Avenidas</a>
+          <a href="" class="panel-btn"><img src="public/img/sinal.png" alt="">Sinais de Trânsito com Defeitos</a>
+          <a href="" class="panel-btn"><img src="public/img/diario.png" alt="">Diário Oficial</a>
+          <a href="" class="panel-btn"><img src="public/img/rat.png" alt="">Controle de Roedores</a>
+          <a href="" class="panel-btn"><img src="public/img/assist.png" alt="">Assistência Social</a>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="allitem">
+      <div class="div1">
+        <br><br>
+        <img src="brasão-prefeitura.png" alt="">
+        <p>Nossas Redes Sociais</p>
+        <div class="redes">
+          <img src="/public/img/footer/Facebook-icon.png" alt="">
+          <img src="/public/img/footer/Instagram-icon.png" alt="">
+          <img src="/public/img/footer/Email-icon.png" alt="">
+        </div>
+        <p>Baixe Nosso app</p>
+        <p><img src="/public/img/footer/apple-icon.png" alt=""> Baixar na App Store</p>
+        <p><img src="/public/img/footer/android-icon.png" alt=""> Baixar no Google Play</p>
+      </div>
+      <div class="div2">
+        <h3><strong>Links úteis</strong></h3>
+        <p class="paragrafomeio"> Nova iguaçu <img src="/public/img/footer/compartilhar.png" alt=""></p>
+        <p class="paragrafomeio">Ouvidoria Municipal <img src="/public/img/footer/compartilhar.png" alt=""></p>
+        <p class="paragrafomeio">Órgãos Municipais <img src="/public/img/footer/compartilhar.png" alt=""></p>
+      </div>
+      <div class="contato">
+        <div class="contato2">
+          <p>FALE CONOSCO</p>
+        </div>
+        <div><img src="/public/img/footer/faleconosco.png" alt=""></div>
+        <div class="num">
+          <p>+55 21 2666-4910</p>
+        </div>
+        <div class="paragrafo">
+          <p class="paragrafo6">ouvidoria@novaiguaçu.rj.gov.br</p>
+        </div>
+        <div class="loca">
+          <img src="Localização-prefeituraa.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
