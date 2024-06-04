@@ -32,7 +32,7 @@ header {
 }
 
 .menu {
-  
+
   grid-column: 4;
   /* Menu na segunda coluna */
   grid-row: 1;
@@ -279,19 +279,23 @@ body {
   justify-content: center;
   text-align: center;
 }
-.allitem{
-  background-color:#242751 ;
+
+.allitem {
+  background-color: #242751;
   color: white;
-  
+
 }
-.apps{
+
+.apps {
   display: flex;
   flex-direction: row;
 }
-.div1{
+
+.div1 {
   margin-top: -40px;
 }
-.appstore{
+
+.appstore {
   border: 1px solid #E06939;
   border-radius: 10px;
   width: 100px;
@@ -300,7 +304,8 @@ body {
   text-align: center;
   margin-right: 1rem;
 }
-.googleplay{
+
+.googleplay {
   border: 1px solid #E06939;
   border-radius: 10px;
   width: 100px;
@@ -308,43 +313,50 @@ body {
   justify-content: center;
   text-align: center;
 }
-.redes{
+
+.redes {
   display: flex;
   flex-direction: row;
 }
-.insta{
+
+.insta {
   margin-left: 0.5rem;
 }
-.email{
+
+.email {
   margin-left: 0.5rem;
 }
-.container-marcos{
+
+.container-marcos {
   background-color: #242751;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.paragrafo{
+
+.paragrafo {
   color: #EC6229;
   flex-direction: column;
 }
-.contato{
-   font-size: xx-small;
-   background-color: #EF6126;
-   width: 113px;
-   height: 1.5rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 15px 15px 0 0;
-   transform: rotate(270deg); 
-   position: relative; 
-   right: 2rem;
-   z-index: 1;
+
+.contato {
+  font-size: xx-small;
+  background-color: #EF6126;
+  width: 113px;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+  transform: rotate(270deg);
+  position: relative;
+  right: 2rem;
+  z-index: 1;
 }
-.contato2{
+
+.contato2 {
   height: 105px;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   width: 80%;
   background-color: #273061;
@@ -353,23 +365,27 @@ body {
   right: 5.6rem;
   justify-content: center;
 }
-.ctt{
+
+.ctt {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.num{
+
+.num {
   text-align: center;
   font-size: small;
   margin-top: 0.7rem;
 }
-.ouvidoria{
+
+.ouvidoria {
   text-align: center;
   font-size: x-small;
   margin-top: 0.7rem;
   color: #EC6229;
 }
-.localização{
+
+.localização {
   margin-left: 0.5rem;
   width: 100%;
   height: auto;
@@ -382,7 +398,7 @@ body {
 
 .container-mateus {
   display: flex;
-  width: 500px;
+  width: 100%;
   height: 100px;
   background-color: #ff6347;
   border-radius: 20px;
@@ -391,6 +407,7 @@ body {
 }
 
 .button {
+  width: 70px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -402,6 +419,10 @@ body {
   cursor: pointer;
   transition: transform 0.3 ease;
 
+}
+
+button p {
+  font-size: 12px;
 }
 
 #portal1 {
@@ -431,7 +452,7 @@ body {
   width: 80%;
   border-radius: 20px;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 100%;
   margin-top: 20px;
   background-color: #131b53;
   ;
@@ -452,13 +473,22 @@ body {
   overflow: hidden;
 }
 
+.foto_maior img {
+  border-radius: 10px
+}
+
 .fotos_menores {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 0px;
   overflow: hidden;
 }
+
+.foto_menor img {
+  border-radius: 10px;
+}
+
 
 .pequena {
   width: 48%;
@@ -467,7 +497,7 @@ body {
 .pequena img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .links {
@@ -483,7 +513,7 @@ body {
   transition: background-color 0.3s;
 }
 
-  /* Parte do CSS do Desktop */
+/* Parte do CSS do Desktop */
 @media (min-width: 768px) {
 
 
@@ -492,9 +522,12 @@ body {
   }
 
   .container {
-    width: 80%; /* Adjust width as needed */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some padding around the content */
+    width: 80%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add some padding around the content */
   }
 
   .card {
@@ -507,7 +540,8 @@ body {
     width: 100%;
     height: auto;
   }
-  .baixada{
+
+  .baixada {
     display: flex;
     width: 100%;
     height: 0 auto;
