@@ -282,14 +282,30 @@ body {
 .allitem{
   background-color:#242751 ;
   color: white;
-  
+  width: 100%;
+  height: 0 auto;
 }
 .apps{
   display: flex;
   flex-direction: row;
 }
 .div1{
-  margin-top: -40px;
+  margin-top: -50px;
+  margin-bottom: -60px;
+}
+.div2{
+ width: 100%;
+ height: 0 auto;
+}
+.div3{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.3rem;
+  margin-bottom: 1rem;
+}
+.paragrafo{
+  color: #EC6229;
+  margin-top: 0.5rem;
 }
 .appstore{
   border: 1px solid #E06939;
@@ -322,41 +338,52 @@ body {
   background-color: #242751;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-.paragrafo{
-  color: #EC6229;
-  flex-direction: column;
+  max-width: 430px;
+  /* Largura máxima do container */
+  margin: 0 auto;
+  /* Centraliza o container na tela */
+  padding: 20px;
+  /* Espaçamento interno do container */
 }
 .contato{
-   font-size: xx-small;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.contato2{
+  color: #EC6229;
+  flex-direction: column;
+  font-size: x-small;
+}
+.contato0{
+   font-size: x-small;
    background-color: #EF6126;
-   width: 113px;
-   height: 1.5rem;
+   width: 170px;
+   height: 1.3rem;
    display: flex;
    justify-content: center;
    align-items: center;
    border-radius: 15px 15px 0 0;
    transform: rotate(270deg); 
    position: relative; 
-   right: 2rem;
-   z-index: 1;
+   right: 4.3rem;
+   margin-left: 4rem;
+   z-index: 1; 
 }
-.contato2{
-  height: 105px;
+.contato1{
+  height: 100px;
   display: flex;
   flex-direction: column ;
   align-items: center;
-  width: 80%;
+  width: 100%;
   background-color: #273061;
   border-radius: 15px;
   position: relative;
-  right: 5.6rem;
+  right: 8rem;
   justify-content: center;
-}
-.ctt{
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  font-size: small;
+  padding-top: 0.4rem;
+  padding-bottom: 0.1rem;
 }
 .num{
   text-align: center;
@@ -366,13 +393,14 @@ body {
 .ouvidoria{
   text-align: center;
   font-size: x-small;
-  margin-top: 0.7rem;
+  margin-top: 1rem;
   color: #EC6229;
 }
-.localização{
-  margin-left: 0.5rem;
+.loca{
+  margin-left: 2.4rem;
   width: 100%;
   height: auto;
+  margin-top: 2rem;
 }
 
   /* Parte do CSS do Desktop */
