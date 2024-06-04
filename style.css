@@ -166,85 +166,121 @@ body {
 
 .footer {
   display: flex;
-  border-top: 3rem solid #EC6229;
+  border-top: 2.5rem solid #EC6229;
   background-color: #242751;
-  padding: 0rem 4rem 4rem 4rem;
-
+  padding: 0rem 4rem 4rem 0rem;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
 }
-
-.div1 {
-  font-size: 11px;
+.allitem{
+  background-color:#242751 ;
+  color: white;
+  
 }
-
-.div2 {
-  padding-top: 14vh;
-  padding-right: 4vh;
-}
-
-.allitem {
+.apps{
   display: flex;
-  flex-direction: rown;
-  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+}
+.div1{
+  margin-top: -40px;
+}
+.appstore{
+  border: 1px solid #E06939;
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  margin-right: 1rem;
+}
+.googleplay{
+  border: 1px solid #E06939;
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+.redes{
+  display: flex;
+  flex-direction: row;
+}
+.insta{
+  margin-left: 0.5rem;
+}
+.email{
+  margin-left: 0.5rem;
+}
+.container{
   background-color: #242751;
   color: white;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.paragrafomeio {
-  color: #E06939;
-  font-size: 11px;
-}
-
-.contato {
-  margin-top: 3.5rem;
-  height: 25vh;
-  display: flex;
+.paragrafo{
+  color: #EC6229;
   flex-direction: column;
+}
+.contato{
+   font-size: xx-small;
+   background-color: #EF6126;
+   width: 113px;
+   height: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px 15px 0 0;
+   transform: rotate(270deg); 
+   position: relative; 
+   right: 2rem;
+   z-index: 1;
+}
+.contato2{
+  height: 105px;
+  display: flex;
+  flex-direction: column ;
   align-items: center;
-  width: 145px;
+  width: 80%;
   background-color: #273061;
   border-radius: 15px;
+  position: relative;
+  right: 5.6rem;
+  justify-content: center;
 }
-
-.paragrafo6 {
-  font-size: xx-small;
-  color: #EF6126;
-}
-
-.num {
-  height: 30px
-}
-
-.contato2 {
-  font-size: xx-small;
-  margin-bottom: 25px;
-  background-color: #EF6126;
-  width: 100%;
+.ctt{
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 15px 15px 0 0;
+}
+.num{
+  text-align: center;
+  font-size: small;
+  margin-top: 0.7rem;
+}
+.ouvidoria{
+  text-align: center;
+  font-size: x-small;
+  margin-top: 0.7rem;
+  color: #EC6229;
+}
+.localização{
+  margin-left: 0.5rem;
+  width: 100%;
+  height: auto;
 }
 
-.loca {
-  margin-top: 6.5vh;
-  margin-right: 15vh;
-  display: flex;
 
-}
-
-.paragrafo {
-  margin-bottom: 0.2rem;
-}
-
-.img {
-  min-width: 10%;
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 350px) {
   .allitem {
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  .baixada{
+    display: flex;
+    width: 100%;
+    height: 0 auto;
   }
 
   .div1, .div2 {
@@ -258,12 +294,9 @@ body {
 
   .loca {
     width: 100%;
-    height: auto
+    height: auto;
   }
 }
-
-
-
 @media (min-width: 768px) {
   .menu {}
 
