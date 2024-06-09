@@ -161,6 +161,16 @@
          margin-left: 38rem;
          margin-top: -60rem;
         }
-          
+        #ultimas-noticias{
+          margin-left: 5rem;
+          border-radius:20px;
+          text-align: center;
+          background-color: #ffff;
+        }
+        #foto-noticias{
+          border-radius:20px;
+          text-align: center;
+          background-color: #ffff;
+        }
         
         
