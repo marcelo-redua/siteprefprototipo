@@ -17,24 +17,6 @@
 }
 
 
-/* Parte do CSS mobile */
-
-header {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  /* Duas colunas: logo (1fr) e menu (2fr) */
-  gap: 20px;
-  /* Espaçamento de 20px entre as seções */
-  gap: 20px;
-  /* Espaçamento entre os elementos */
-  background: #fff;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0 30px;
-  width: 100;
-}
-
 .menu {
 
   grid-column: 4;
