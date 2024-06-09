@@ -8,57 +8,69 @@
     <title>Ouvidoria - Prefeitura Municipal de Nova Iguaçu</title>
 </head>
 
-<body class="px-6 mx-auto">
-    <header class="bg-orange-500">
-        <nav class="mx-auto bg-green-400">
-            <button type="button">
-                <img src="../public/img/svg/logoPrefcomplexa.svg" alt="">
-            </button>
-            <button type="button">
-                <img src="../public/img/SVG/lupaPesquisa.svg" alt="">
-            </button>
-            <button  type="menu">
-                <img src="../public/img/SVG/menuHamburguer.svg" alt="">
-            </button>
+<body>
+    <header class="bg-orange-500 h-22 flex-row flex space-x-0 space-y-0 px-2 m-0">
+        <nav class="bg-green-400 w-full h-full flex">
+            <div class="w-40 h-auto grid my-auto">
+                <a href="index.html"><img src="../public/img/svg/logoPrefcomplexa.svg" alt=""></a>
+            </div>
+            <div class="bg-black w-auto h-auto">
+                <button type="button"><img src="../public/img/SVG/lupaPesquisa.svg" alt=""></button>
+            </div>
+                <button class="" type="button"><img src="../public/img/SVG/menuHamburguer.svg" alt=""></button>
+
+    
+            
+
         </nav>
     </header>
 
     <main>
-        <div >
-            <button>Serviços</button>
-            <button>Outros Serviços</button>
+        <section class="px-4">
+            <div class="pt-8">
+                <button type="button">Serviços</button>
+                <button type="button">Outros Serviços</button>
+            </div>
 
             <img class="h-auto rounded-lg" src="../public/img/ouvidoria.jpg" alt="">
 
-            <h1>Ouvidoria</h1>
-            <div class="bg-orange-500 px-4 py-2 rounded-lg">
-                <p class="pb-1">Se desejar, envie-nos um e-mail através do formulário abaixo. Iremos retornar o mais
-                    breve possível.
-                </p>
-                <form>
+            <h1 class="py-6 text-orange-500">OUVIDORIA</h1>
+            <div class="bg-orange-500 rounded-lg h-auto">
+                <form class="flex-col space-y-1 m-auto justify-items-center text-center px-2 py-2" id="form-ouvidoria">
+                    <p class="text-left text-white">
+                        Se desejar, envie-nos um e-mail através do formulário abaixo. Iremos
+                        retornar o mais
+                        breve possível.
+                    </p>
                     <label class="hidden" for="nome">Insira Seu nome</label>
-                    <input class="block" type="text" id="nome" name="nome" placeholder="Nome *">
+                    <input class="w-full rounded-sm" type="text" id="nome" name="nome" placeholder="Nome*" required>
 
                     <label class="hidden" for="email">Insira seu endereço de e-mail</label>
-                    <input class="block" type="email" id="email" name="email" placeholder="E-mail *">
+                    <input class="w-full rounded-sm" type="email" id="email" name="email" placeholder="E-mail*"
+                        required>
 
                     <label class="hidden" for="endereco">Insira seu endereço, completo com CEP</label>
-                    <input class="block" type="text" id="endereco" name="endereco"
-                        placeholder="Endereço completo, com CEP *">
+                    <input class="w-full rounded-sm" type="text" id="endereco" name="endereco"
+                        placeholder="Endereço completo, com CEP*" required>
 
                     <label class="hidden" for="telefone">Insira seu número de telefone, com DDD</label>
-                    <input class="block w-auto" type="tel" id="telefone" name="telefone" placeholder="Telefone *"
-                        pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">
+                    <input class="w-full rounded-sm" type="tel" id="telefone" name="telefone" placeholder="Telefone*"
+                        required pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">
 
                     <label class="hidden" for="cpf">Insira seu CPF</label>
-                    <input class="block" type="text" id="cpf" name="cpf" placeholder="CPF *">
+                    <input class="w-full rounded-sm" type="text" id="cpf" name="cpf" placeholder="CPF*" required>
 
                     <label class="hidden" for="motivoContato">Insira o motivo de seu contato</label>
-                    <textarea id="motivoContato" name="motivoContato" rows="5" cols="30"
-                        placeholder="Descreva em detalhes o motivo do seu contato *"></textarea>
+                    <textarea class="resize-y w-full rounded-sm" id="motivoContato" name="motivoContato" rows="4"
+                        placeholder="Descreva em detalhes o motivo do seu contato*" required></textarea>
+                    <div class=" border-white border rounded-lg p-2 text-white mx-24 hover:duration-200 hover:bg-white hover:text-orange-500 active:hover:bg-white
+                    active:text-orange-500">
+                        <button type="submit" value="form-ouvidoria">Enviar</button>
+                    </div>
+
                 </form>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
 
