@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class=" h-22 flex flex-row space-x-0 space-y-0 px-2 m-0">
+    <header class=" pt-3 h-22 flex flex-row space-x-0 space-y-0 px-2 m-0">
         <nav class="w-full h-full flex">
             <div class="w-60 h-auto grid my-auto">
                 <a href="index.html"><img src="../public/img/svg/logoPrefcomplexa.svg" alt=""></a>
@@ -17,7 +17,7 @@
             <div class="w-full h-full flex flex-row-reverse gap-2">
                 <div class="bg-orange-500 size-12 p-2.5 rounded-full self-center">
                     <button class="size-full" type="button">
-                        <img src="../public/img/SVG/menuHamburguerBranco.svg"  alt="">
+                        <img src="../public/img/SVG/menuHamburguerBranco.svg" alt="">
                     </button>
                 </div>
                 <div class="bg-orange-500 size-12 p-2.5 rounded-full self-center">
@@ -40,10 +40,11 @@
                 </div>
             </div>
 
-            <img class="h-auto rounded-lg" src="../public/img/ouvidoria.jpg" alt="Imagem de um fone the ouvido e um notebook a desfocado a distância.">
+            <img class="h-auto rounded-lg" src="../public/img/ouvidoria.jpg"
+                alt="Imagem de um fone the ouvido e um notebook a desfocado a distância.">
 
             <h1 class="py-6 text-orange-500">OUVIDORIA</h1>
-            <div class="bg-orange-500 rounded-lg h-auto">
+            <div class="bg-orange-500 rounded-lg h-auto mb-4">
                 <form class="flex-col space-y-1 m-auto justify-items-center text-center px-2 py-2" id="form-ouvidoria">
                     <p class="text-left text-white">
                         Se desejar, envie-nos um e-mail através do formulário abaixo. Iremos
@@ -78,19 +79,92 @@
                 </form>
             </div>
         </section>
-      <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
         </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </main>
 
-    <footer>
+    <footer class="pt-6 bg-orange-500">
+        <div class="flex flex-row bg-blue-900 text-white">
+
+            <div class="flex flex-col text-center">
+                <div>
+                    <h2>Nossas Redes Sociais</h2>
+                    <div class="flex flex-row gap-3 justify-center">
+                        <div class="size-10 ">
+                            <a href="https://www.facebook.com/prefeituradenovaiguacu" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/facebookIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+
+                        <div class="size-10 ">
+                            <a href="https://www.facebook.com/prefeituradenovaiguacu" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/instagramIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+
+                        <div class="size-10 ">
+                            <a href="https://www.facebook.com/prefeituradenovaiguacu" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/emailIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <h2>Fale Conosco</h2>
+                    </div>
+                    <div>
+                        <p>+55 (21) 2666-4910</p>
+                        <a class="">ouvidoria@novaiguacu.rj.gov.br</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div>
+                    <h2>Links Úteis</h2>
+                    <a href="index.html">
+                        <p>Página Principal</p><img src="../public/img/SVG/linkIcon.svg" alt="">
+                    </a>
+                    <a href="ouvidoria.html">
+                        <p>Ouvidoria Municipal</p><img src="../public/img/SVG/linkIcon.svg" alt="">
+                    </a>
+                    <a href="estrutura.html">
+                        <p>Secratarias Municipais</p><img src="../public/img/SVG/linkIcon.svg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <div>
+                        <h2>Localização</h2>
+                    </div>
+                    <div>
+                        <p>Rua Athaide Pimenta de Moraes, 528, Centro - Nova Iguaçu, Rio de Janeiro
+                            <br> CEP: 26.210-190
+                            <br> CNPJ: 29.138.278/0001-01
+                        </p>
+                    </div>
+                    <div>
+                        <p>MAPA DE NOVA IGUACU</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </footer>
 </body>
 
