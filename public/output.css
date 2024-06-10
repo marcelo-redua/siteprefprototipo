@@ -588,10 +588,6 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .m-0 {
   margin: 0px;
 }
@@ -629,6 +625,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .line-clamp-2 {
@@ -838,6 +838,11 @@ video {
   text-align: center;
 }
 
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -848,11 +853,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -860,6 +860,11 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
 .text-blue-950 {
@@ -881,10 +886,6 @@ video {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.outline {
-  outline-style: solid;
 }
 
 .transition {
@@ -916,7 +917,7 @@ video {
 }
 
 * {
-  font-family: "Helvetica, Open-Sans";
+  font-family: "Helvetica", "Open-Sans";
 }
 
 /* Parte do CSS mobile */
