@@ -5,151 +5,211 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="style-semat.css"
+  <link rel="stylesheet" href="style-semat.css">
+  <link rel="stylesheet" href="output.css">
   <title>Secretaria Municipal de Administração e Tecnologia - Prefeitura Municipal de Nova Iguaçu</title>
 </head>
 
 <body>
-  <header>
-    <nav class="nav-bar">
-
-      <ul class="nav-bar-menu">
-        <li><a href="#">INICIO</a></li>
-        <li><a href="#">CIDADE</a></li>
-        <li><a href="/secretarias.html">SECRETARIAS</a></li>
-        <li><a href="#">DIARIO OFICIAL</a></li>
-        <div class="nav-bar-logo">
-          <a href="#">
-            <img src="/public/img/logo.png" alt="Logo">
-          </a>
+  <header class=" pt-3 h-22 flex flex-row space-x-0 space-y-0 px-4 m-0">
+    <nav class="w-full h-full flex">
+      <div class="w-60 h-auto grid my-auto">
+        <a href="index.html"><img src="../public/img/svg/logoPrefcomplexa.svg" alt=""></a>
+      </div>
+      <div class="w-full h-full flex flex-row-reverse gap-2">
+        <div class="bg-orange-500 size-12 p-2.5 rounded-full self-center">
+          <button class="size-full" type="button">
+            <img src="../public/img/SVG/menuHamburguerBranco.svg" alt="">
+          </button>
         </div>
-        <li><a href="#">PREFEITURA</a></li>
-        <li><a href="#">NOTÍCIA</a></li>
-        <li><a href="#">TRANSPARÊNCIA</a></li>
-        <li><a href="#">OUVIDORIA</a></li>
-      </ul>
-
+        <div class="bg-orange-500 size-12 p-2.5 rounded-full self-center">
+          <button class="size-full" type="button">
+            <img src="../public/img/SVG/lupaPesquisa.svg" alt="">
+          </button>
+        </div>
+      </div>
     </nav>
-    <div class="menu">
-      <button type="submit"><img src="public/img/vaiporra.svg" alt=""></button>
-      <button type="submit"><img src="public/Group 5.svg" alt=""></button>
-    </div>
   </header>
 
-  <div class="container-semat">
-     <div class="h2psecretarias">
-       <p> Inicio > Secretarias</p>
-       <h2>Secretarias <img class="iconajuste" src="Semat icones/ajustes.png" alt=""></h2>
-     </div>
-     <div class="v-line"></div>
-     <div class="div1-semat">
-       <h2 class="h2div1">Semat</h2>
-       <p class="pdiv1">Secretaria Municipal de Administração e Tecnologia</p>
-     </div>
-     <h2 class="h2div1">Acesso Rápido</h2>
+
+  <main class="p-4">
+    <div class="">
+      <div class="">
+        <p> Inicio > Secretarias</p>
+        <h2>Secretarias <img class="iconajuste" src="Semat icones/ajustes.png" alt=""></h2>
+      </div>
+      <div class="v-line"></div>
+      <div class="div1-semat">
+        <h2 class="h2div1">Semat</h2>
+        <p class="pdiv1">Secretaria Municipal de Administração e Tecnologia</p>
+      </div>
+      <h2 class="h2div1">Acesso Rápido</h2>
       <div class="botoes">
         <div class="botoessemat">
-          <button class="botaosec">
+          <button class="botaosec" type="button">
             <p><img src="Semat icones/secretario.png" alt="">Sobre o <br>Secretário</p>
           </button>
           <br>
-          <button class="botaosec">
+          <button class="botaosec" type="button">
             <p><img src="Semat icones/noticias.png" alt="">Noticias</p>
           </button>
           <br>
-          <button class="botaosec">
+          <button class="botaosec" type="button">
             <p><img src="Semat icones/contato.png" alt="">Contato</p>
           </button>
         </div>
         <div class="botoessemat2">
-            <button class="botaosec">
-              <p><img src="Semat icones/Atribuicoes.png" alt=""> Atribuições</p>
-            </button>
-            <button class="botaosec">
-              <p><img src="Semat icones/Dispensadelicitacoes.png" alt="">Dispensa de <br>licitações</p>
-            </button>
-            <button class="botaosec">
-              <p><img src="Semat icones/seletivo.png" alt="">Processo seletivo <br> simplificado</p>
-            </button>
+          <button class="botaosec" type="button">
+            <p><img src="Semat icones/Atribuicoes.png" alt=""> Atribuições</p>
+          </button>
+          <button class="botaosec" type="button">
+            <p><img src="Semat icones/Dispensadelicitacoes.png" alt="">Dispensa de <br>licitações</p>
+          </button>
+          <button class="botaosec" type="button">
+            <p><img src="Semat icones/seletivo.png" alt="">Processo seletivo <br> simplificado</p>
+          </button>
         </div>
-        
-        <br>
-        <h2 class="acessorapido"><strong>Acesso Rápido</strong></h2>
-          <div class="div3">
-            <div class="secretario">
-               <button class="buttonsec">
-                 <p class="paragrafosecretario"><img src="Semat icones/secretario.png" alt=""> Sobre o  secretário</p>
-               </button>
-               <button class="buttonatribuicoes">
-                <p><img src="Semat icones/Atribuicoes.png" alt="">Atribuições</p>
-               </button>
-              </div>
-             <div class="noticias">
-              <button class="buttonnot">
-                <p><img src="Semat icones/noticias.png" alt=""> Notícias</p>
-              </button>
-              <button class="buttonlicitacoes">
-                <p><img src="Semat icones/Dispensadelicitacoes.png" alt="">CUS</p>
-              </div>
-              </button>
-              <div class="contato">
-                <button class="buttoncontato">
-                  <p><img src="Semat icones/contato.png" alt=""> Contato</p>
-                </button>
-                <button class="buttonseletivo">
-                  <p><img src="Semat icones/seletivo.png" alt=""> Processo Seletivo Simplificado</p>
-                </button>
-              </div>
-          </div>
-       
       </div>
-  </div>
-   
-    
-
-
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
     </div>
-</div>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-</script>
 
-<div id="ultimas-noticias">
-  <div id="foto-noticias">
-    <img src="../public/img/footer/IVf4w0_00000101796274926934581680000003378610280363095702_.png">
-  </div>
-  <h1 id="texto-noticias">Nova Iguaçu oferece 450 vagas para cursos tecnológicos do CVTI</h1>
-  <p id="data-noticias">09 de fevereiro de 2024</p>
-</div>
 
-<div id="ultimas-noticias">
-  <div id="foto-noticias">
-    <img src="../public/img/footer/EUQ6rc_00000156580614839594934820000009159073158776564411_ - Copia.png">
-  </div>
-  <h1 id="texto-noticias">1° Evento de Tecnologia, Informação de Comunicação</h1>
-  <p id="data-noticias">09 de fevereiro de 2024</p>
-</div>
 
-<div id="ultimas-noticias">
-  <div id="foto-noticias">
-    <img src ="../public/img/weoLr3_00000114043769574970749980000014361795771164149152_.png">
-    <h1 id="texto-noticias"> Nova Iguaçu divulga lista dos sorteados para cursos gratuitos do CVTI</h1>
-    <p id="data-noticias">02 de fevereiro de 2024</p>
-  </div>
-</div>
 
-<div id="link-final">
-  <p id="texto-link"><a href="https://www.exemplo.com">Ver mais notícias...</a>.</p>
-</body>
-</div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
-  <footer>
+    <div id="ultimas-noticias">
+      <div id="foto-noticias">
+        <img src="../public/img/footer/IVf4w0_00000101796274926934581680000003378610280363095702_.png">
+      </div>
+      <h1 id="texto-noticias">Nova Iguaçu oferece 450 vagas para cursos tecnológicos do CVTI</h1>
+      <p id="data-noticias">09 de fevereiro de 2024</p>
+    </div>
 
+    <div id="ultimas-noticias">
+      <div id="foto-noticias">
+        <img src="../public/img/footer/EUQ6rc_00000156580614839594934820000009159073158776564411_ - Copia.png">
+      </div>
+      <h1 id="texto-noticias">1° Evento de Tecnologia, Informação de Comunicação</h1>
+      <p id="data-noticias">09 de fevereiro de 2024</p>
+    </div>
+
+    <div id="ultimas-noticias">
+      <div id="foto-noticias">
+        <img src="../public/img/weoLr3_00000114043769574970749980000014361795771164149152_.png">
+        <h1 id="texto-noticias"> Nova Iguaçu divulga lista dos sorteados para cursos gratuitos do CVTI</h1>
+        <p id="data-noticias">02 de fevereiro de 2024</p>
+      </div>
+    </div>
+
+    <div id="link-final">
+      <p id="texto-link"><a href="https://www.exemplo.com">Ver mais notícias...</a>.</p>
+
+  </main>
+
+
+
+  <footer class="pt-6 bg-orange-500 mx-auto">
+    <div class="flex flex-col gap-2 px-4 pb-4 bg-blue-900 text-white">
+
+      <div class="flex flex-col text-center gap-5">
+        <div class="pt-4">
+          <img src="../public/img/svg/logoprefeitura.svg" alt="">
+        </div>
+        <div>
+          <h2>Nossas Redes Sociais</h2>
+          <div class="flex flex-row gap-3 justify-center">
+            <div class="size-10 ">
+              <a href="https://www.facebook.com/prefeituradenovaiguacu" target="_blank">
+                <button class="size-full" type="button">
+                  <img src="../public/img/SVG/facebookIcon.svg" alt="">
+                </button>
+              </a>
+            </div>
+
+            <div class="size-10 ">
+              <a href="https://www.instagram.com/prefeituranovaiguacu/" target="_blank">
+                <button class="size-full" type="button">
+                  <img src="../public/img/SVG/instagramIcon.svg" alt="">
+                </button>
+              </a>
+            </div>
+
+            <div class="size-10 ">
+              <a href="https://x.com/prefnova_iguacu" target="_blank">
+                <button class="size-full" type="button">
+                  <img src="../public/img/SVG/emailIcon.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-4 bg-blue-950 rounded-md">
+          <div class="bg-orange-500 rounded-tr-md rounded-tl-md w-full">
+            <h2 class="font-bold pt-1">Fale Conosco</h2>
+          </div>
+          <div class="size-10 self-center">
+            <img src="../public/img/SVG/faleConosco.svg" alt="">
+          </div>
+          <div class="pb-4">
+            <p>+55 (21) 2666-4910</p>
+            <a class="text-sm text-orange-500">ouvidoria@novaiguacu.rj.gov.br</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col">
+        <div class="pt-3 hidden">
+          <h2>Links Úteis</h2>
+          <div class="text-xs text-nowrap">
+            <a class="flex flex-row" href="index.html">
+              <p>Página Principal</p>
+              <img class="size-3 self-center grow" src="../public/img/SVG/linkIcon.svg" alt="">
+            </a>
+
+            <a class="flex flex-row" href="ouvidoria.html">
+              <p>Ouvidoria Municipal</p>
+              <img class="size-3 self-center grow" src="../public/img/SVG/linkIcon.svg" alt="">
+            </a>
+
+            <a class="flex flex-row" href="estrutura.html">
+              <p>Secretarias Municipais</p><img class="size-3 self-center grow" src="../public/img/SVG/linkIcon.svg"
+                alt="">
+            </a>
+          </div>
+
+        </div>
+
+        <div class="flex flex-col gap-4 bg-blue-950 rounded-md">
+          <div class="bg-orange-500 rounded-tr-md rounded-tl-md w-full">
+            <h2 class="font-bold pt-1 text-center">Localização</h2>
+          </div>
+          <div class="text-nowrap text-sm self-center">
+            <p>Rua Athaide Pimenta de Moraes, 528
+              <br>Centro - Nova Iguaçu, Rio de Janeiro
+              <br> CEP: 26.210-190
+              <br> CNPJ: 29.138.278/0001-01
+            </p>
+          </div>
+          <div>
+            <iframe class="w-full rounded-b-lg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.8586616849366!2d-43.451645319250375!3d-22.754716501709172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967a85012c47b%3A0x52f5a452ffb9f3a1!2sPrefeitura%20Municipal%20de%20Nova%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1717973517328!5m2!1spt-BR!2sbr"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </footer>
 </body>
 
