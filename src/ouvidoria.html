@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class=" h-22 flex flex-row space-x-0 space-y-0 px-2 m-0">
+    <header class=" pt-3 h-22 flex flex-row space-x-0 space-y-0 px-4 m-0">
         <nav class="w-full h-full flex">
             <div class="w-60 h-auto grid my-auto">
                 <a href="index.html"><img src="../public/img/svg/logoPrefcomplexa.svg" alt=""></a>
@@ -30,7 +30,7 @@
     </header>
 
     <main>
-        <section class="container mx-auto px-4">
+        <section class="px-4">
             <div class="pt-8 pb-2 flex flex-row gap-2">
                 <div class="border-2 border-orange-500 rounded-lg bg-orange-500 px-2">
                     <button class="text-white" type="button">Serviços</button>
@@ -44,7 +44,7 @@
                 alt="Imagem de um fone the ouvido e um notebook a desfocado a distância.">
 
             <h1 class="py-6 text-orange-500">OUVIDORIA</h1>
-            <div class="bg-orange-500 rounded-lg h-auto">
+            <div class="bg-orange-500 rounded-lg h-auto mb-4">
                 <form class="flex-col space-y-1 m-auto justify-items-center text-center px-2 py-2" id="form-ouvidoria">
                     <p class="text-left text-white">
                         Se desejar, envie-nos um e-mail através do formulário abaixo. Iremos
@@ -53,7 +53,6 @@
                     </p>
                     <label class="hidden" for="nome">Insira Seu nome</label>
                     <input class="w-full rounded-sm" type="text" id="nome" name="nome" placeholder="Nome*" required>
-
                     <label class="hidden" for="email">Insira seu endereço de e-mail</label>
                     <input class="w-full rounded-sm" type="email" id="email" name="email" placeholder="E-mail*"
                         required>
@@ -91,7 +90,99 @@
         </script>
     </main>
 
-    <footer>
+    <footer class="pt-6 bg-orange-500 mx-auto">
+        <div class="flex flex-col gap-2 px-4 pb-4 bg-blue-900 text-white">
+
+            <div class="flex flex-col text-center gap-5">
+                <div class="pt-4">
+                    <img src="../public/img/svg/logoprefeitura.svg" alt="">
+                </div>
+                <div>
+                    <h2>Nossas Redes Sociais</h2>
+                    <div class="flex flex-row gap-3 justify-center">
+                        <div class="size-10 ">
+                            <a href="https://www.facebook.com/prefeituradenovaiguacu" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/facebookIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+
+                        <div class="size-10 ">
+                            <a href="https://www.instagram.com/prefeituranovaiguacu/" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/instagramIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+
+                        <div class="size-10 ">
+                            <a href="https://x.com/prefnova_iguacu" target="_blank">
+                                <button class="size-full" type="button">
+                                    <img src="../public/img/SVG/emailIcon.svg" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-4 bg-blue-950 rounded-md">
+                    <div class="bg-orange-500 rounded-tr-md rounded-tl-md w-full">
+                        <h2 class="font-bold pt-1">Fale Conosco</h2>
+                    </div>
+                    <div class="size-10 self-center">
+                        <img src="../public/img/SVG/faleConosco.svg" alt="">
+                    </div>
+                    <div class="pb-4">
+                        <p>+55 (21) 2666-4910</p>
+                        <a class="text-sm text-orange-500">ouvidoria@novaiguacu.rj.gov.br</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div class="pt-3 hidden">
+                    <h2>Links Úteis</h2>
+                    <div class="text-xs text-nowrap">
+                        <a class="flex flex-row" href="index.html">
+                            <p>Página Principal</p>
+                            <img class="size-3 self-center grow" src="../public/img/SVG/linkIcon.svg" alt="">
+                        </a>
+
+                        <a class="flex flex-row" href="ouvidoria.html">
+                            <p>Ouvidoria Municipal</p>
+                            <img class="size-3 self-center grow" src="../public/img/SVG/linkIcon.svg" alt="">
+                        </a>
+
+                        <a class="flex flex-row" href="estrutura.html">
+                            <p>Secretarias Municipais</p><img class="size-3 self-center grow"
+                                src="../public/img/SVG/linkIcon.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-4 bg-blue-950 rounded-md">
+                    <div class="bg-orange-500 rounded-tr-md rounded-tl-md w-full">
+                        <h2 class="font-bold pt-1 text-center">Localização</h2>
+                    </div>
+                    <div class="text-nowrap text-sm self-center">
+                        <p>Rua Athaide Pimenta de Moraes, 528
+                            <br>Centro - Nova Iguaçu, Rio de Janeiro
+                            <br> CEP: 26.210-190
+                            <br> CNPJ: 29.138.278/0001-01
+                        </p>
+                    </div>
+                    <div>
+                        <iframe class="w-full rounded-b-lg"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.8586616849366!2d-43.451645319250375!3d-22.754716501709172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967a85012c47b%3A0x52f5a452ffb9f3a1!2sPrefeitura%20Municipal%20de%20Nova%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1717973517328!5m2!1spt-BR!2sbr"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </footer>
 </body>
 
