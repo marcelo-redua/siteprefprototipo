@@ -588,6 +588,14 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -859,6 +867,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -887,6 +900,14 @@ video {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline {
+  outline-style: solid;
 }
 
 .transition {
@@ -918,6 +939,25 @@ video {
 }
 
 * {
+  font-family: "Helvetica, Open-Sans";
+}
+
+/* Parte do CSS mobile */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* Duas colunas: logo (1fr) e menu (2fr) */
+  /* Espaçamento de 20px entre as seções */
+  gap: 20px;
+  /* Espaçamento entre os elementos */
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 30px;
+  width: 100;
+}
   font-family: "Helvetica", "Open-Sans";
 
 .menu {
