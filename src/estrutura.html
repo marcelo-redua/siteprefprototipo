@@ -13,29 +13,29 @@
 
 <body>
     <header>
-        <nav>
-            <div class="mt-7">
-                <div class="container mx-auto px-4">
-                    <div class="">
-                        <ul class="lg:flex flex-row text-blue-950 font-bold text-sm justify-around">
-                            <li class="hidden lg:flex"><a class="p-4" href="/siteprefprototipo/src/index.html">INICIO</a></li>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">CIDADE</a></li>
-                            <li class="hidden lg:flex"><a class="text-orange-500 underline p-4" href="/siteprefprototipo/src/estrutura.html">SECRETARIAS</a></li>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">DIARIO OFICIAL</a></li>
-                            <div class="nav-bar-logo">
-                                <a href="#">
-                                    <img src="../public/img/logo.png" alt="Logo">
-                                </a>
-                            </div>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">PREFEITURA</a></li>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">NOTÍCIA</a></li>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">TRANSPARÊNCIA</a></li>
-                            <li class="hidden lg:flex"><a class="p-4" href="#">OUVIDORIA</a></li>
-                        </ul>
-                    </div>
+        <nav class="nav-bar">
+
+            <ul class="nav-bar-menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">CIDADE</a></li>
+                <li><a href="/secretarias.html">SECRETARIAS</a></li>
+                <li><a href="#">DIARIO OFICIAL</a></li>
+                <div class="nav-bar-logo">
+                    <a href="#">
+                        <img src="/public/img/logo.png" alt="Logo">
+                    </a>
                 </div>
-            </div>
+                <li><a href="#">PREFEITURA</a></li>
+                <li><a href="#">NOTÍCIA</a></li>
+                <li><a href="#">TRANSPARÊNCIA</a></li>
+                <li><a href="#">OUVIDORIA</a></li>
+            </ul>
+
         </nav>
+        <div class="menu">
+            <button type="submit"><img src="public/img/vaiporra.svg" alt=""></button>
+            <button type="submit"><img src="public/Group 5.svg" alt=""></button>
+        </div>
     </header>
     <main>
 
@@ -44,62 +44,25 @@
 
         <div class="container mx-auto px-4">
 
+            <div class="template">
+                Inicio
 
 
+                Estrutura Organizacional
 
 
-            <div>
-                <div class="flex">
-                    <div class="text-xs font-bold text-blue-950 leading-7">
-                        <a href="index.html">Inicio</a>
-                        <span>></span>
-                        Secretarias
-                    </div>
-                </div>
-                <div class="flex mb-5">
-                    <div class="text-2xl font-bold text-blue-950">
-                        Secretarias
-                    </div>
-                </div>
-                <div class="md:bg-gray-300 h-px mb-5">
-
-                </div>
             </div>
 
 
 
-            <div class="md:flex flex-row">
-
-                <div class="hidden md:flex flex-col mr-6">
-                    <div class=" w-72 flex flex-col bg-orange-600 rounded-t-xl p-6 shadow">
-                        <h4 class="text-blue-950 font-bold mb-4">Buscar secretarias</h4>
-                        <input class="p-2 h-10 border-none rounded-lg" type="text" placeholder="Digite a secretaria">
-                    </div>
-                    <div class="p-6 w-72 bg-white flex flex-col rounded-b-xl shadow">
-                        <h4 class="text-blue-950 font-bold mb-4">Filtrar</h4>
-                        <label class="mb-2" for="">
-                            <input type="radio" name="" id="">
-                            <span class="text-gray-400">Todas as secreatarias</span>
-                        </label>
-                        <label class="mb-2" for="">
-                            <input type="radio" name="" id="">
-                            <span class="text-gray-400">Prefeitura</span>
-                        </label>
-                        <label class="mb-2" for="">
-                            <input type="radio" name="" id="">
-                            <span class="text-gray-400">Secretarias</span>
-                        </label>
-                        <label for="">
-                            <input type="radio" name="" id="">
-                            <span class="text-gray-400">Outros Orgãos</span>
-                        </label>
-                    </div>
-
+            <div>
+                <div class="text-xl font-bold">
+                    <h1>Estrutura Organizacional</h1>
                 </div>
+            </div>
+            <div class="posts">
 
-                <div>
-
-                <div class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -174,8 +137,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="semat.html">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -240,8 +202,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -322,8 +283,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -388,8 +348,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -428,8 +387,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -476,8 +434,7 @@
                     </a>
                 </div>
 
-                <div
-                    class="bg-white p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
+                <div class="p-4 shadow rounded-lg cursor-pointer mb-4 hover:shadow-md transition ease-in-out delay-150">
                     <a href="">
                         <div class="flex flex-row">
                             <div class="rounded-lg flex items-center p-2 bg-orange-600  min-w-14">
@@ -524,14 +481,14 @@
             </div>
         </div>
 
-    </div>
+
         <!--Pagination-->
         <div class="pagination">
 
         </div>
 
 
-
+        
         <div vw class="enabled">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
