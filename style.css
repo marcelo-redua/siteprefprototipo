@@ -1,7 +1,5 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
+<<<<<<< HEAD
+=======
 @font-face {
   font-family: Helvetica;
   src: url(/public/fonts/Helvetica.ttf);
@@ -13,9 +11,27 @@
 }
 
 * {
-  font-family: "Helvetica", "Open-Sans";
+  font-family: "Helvetica";
 }
 
+
+/* Parte do CSS mobile */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* Duas colunas: logo (1fr) e menu (2fr) */
+  gap: 20px;
+  /* Espaçamento de 20px entre as seções */
+  gap: 20px;
+  /* Espaçamento entre os elementos */
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 30px;
+  width: 100;
+}
 
 .menu {
 
@@ -117,7 +133,7 @@
   display: none;
 }
 
-.container-marcelo {
+.container {
   max-width: 430px;
   /* Largura máxima do container */
   margin: 0 auto;
@@ -186,6 +202,8 @@ body {
   background-color: #0056b3;
   /* Cor de hover */
 }
+
+.menu {}
 
 .panel-conitainer {
   display: flex;
@@ -298,7 +316,7 @@ width: 100%;
 .appstore {
   border: 1px solid #E06939;
   border-radius: 10px;
-  width: 140px;
+  width: 100rem;
   height: auto;
   justify-content: center;
   text-align: center;
@@ -308,7 +326,7 @@ width: 100%;
 .googleplay {
   border: 1px solid #E06939;
   border-radius: 10px;
-  width: 140px;
+  width: 100px;
   height: auto;
   justify-content: center;
   text-align: center;
@@ -364,7 +382,6 @@ width: 100%;
   right: 4.4rem;
   margin-left: 4rem;
   z-index: 1;
-  
 }
 
 .contato1 {
@@ -378,7 +395,7 @@ width: 100%;
   position: relative;
   right: 8.5rem;
   justify-content: center;
-  bottom: 0.7rem;
+  bottom: 0.2rem;
 }
 
 .ctt {
@@ -406,7 +423,300 @@ width: 100%;
   height: auto;
   margin-top: 2rem;
 }
-@media (min-width: 400px) and (max-width:768px){
+.body {
+  text-align: center;
+  justify-content: center;
+}
+
+.container-mateus {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #ff6347;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.button {
+  width: 70px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+
+}
+
+button p {
+  font-size: 12px;
+}
+
+#portal1 {
+  background-color: #E06939;
+}
+
+#portal2 {
+  background-color: #C5552D;
+}
+
+#portal3 {
+  background-color: #E06939;
+}
+
+#portal4 {
+  background-color: #C5552D;
+}
+
+#portal5 {
+  background-color: #E06939;
+}
+
+#mid_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 20px;
+  background-color: #131b53;
+  ;
+  ;
+}
+
+.foto {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.grande img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto_maior img {
+  border-radius: 10px
+}
+
+.fotos_menores {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.foto_menor img {
+  border-radius: 10px;
+}
+
+
+.pequena {
+  width: 48%;
+}
+
+.pequena img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.body {
+  text-align: center;
+  justify-content: center;
+}
+
+.container-mateus {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #ff6347;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.button {
+  width: 70px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+
+}
+
+button p {
+  font-size: 12px;
+}
+
+#portal1 {
+  background-color: #E06939;
+}
+
+#portal2 {
+  background-color: #C5552D;
+}
+
+#portal3 {
+  background-color: #E06939;
+}
+
+#portal4 {
+  background-color: #C5552D;
+}
+
+#portal5 {
+  background-color: #E06939;
+}
+
+#mid_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 20px;
+  background-color: #131b53;
+  ;
+  ;
+}
+
+.foto {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.grande img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto_maior img {
+  border-radius: 10px
+}
+
+.fotos_menores {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.foto_menor img {
+  border-radius: 10px;
+}
+
+
+.pequena {
+  width: 48%;
+}
+
+.pequena img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+@media (min-width: 100px) and (max-width:768px){
+  .allitem {
+    flex-direction: row;
+    width: 80%;
+    height: 0 auto;
+  }
+
+  .baixada {
+    display: flex;
+    width: auto;
+    height: 0 auto;
+  }
+
+  .div1,
+  .div2 {
+    padding: 2rem;
+    width: 100%;
+    height: 0 auto;
+  }
+
+  .contato {
+    width: 100%;
+    height: auto;
+  }
+
+  .loca {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Parte do CSS do Desktop */
+@media (min-width: 768px) {
+
+
+  .container-mateus {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add some padding around the content */
+  }
+
+  .card {
+    display: none;
+  }
+
   .allitem {
     flex-direction: row;
     width: 80%;
@@ -437,296 +747,5 @@ width: 100%;
   }
 }
 
-.body {
-  text-align: center;
-  justify-content: center;
-}
-
-.container-mateus {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: #ff6347;
-  border-radius: 20px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.button {
-  width: 70px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.3 ease;
-
-}
-
-button p {
-  font-size: 12px;
-}
-
-#portal1 {
-  background-color: #E06939;
-}
-
-#portal2 {
-  background-color: #C5552D;
-}
-
-#portal3 {
-  background-color: #E06939;
-}
-
-#portal4 {
-  background-color: #C5552D;
-}
-
-#portal5 {
-  background-color: #E06939;
-}
-
-#mid_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  border-radius: 20px;
-  overflow: hidden;
-  max-width: 100%;
-  margin-top: 20px;
-  background-color: #131b53;
-  ;
-  ;
-}
-
-.foto {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.grande img {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.foto_maior img {
-  border-radius: 10px
-}
-
-.fotos_menores {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-radius: 0px;
-  overflow: hidden;
-}
-
-.foto_menor img {
-  border-radius: 10px;
-}
-
-
-.pequena {
-  width: 48%;
-}
-
-.pequena img {
-  width: 100%;
-  height: auto;
-  border-radius: 0px;
-}
-
-.links {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-size: 16px;
-  background-color: #ffff;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.body {
-  text-align: center;
-  justify-content: center;
-}
-
-.container-mateus {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: #ff6347;
-  border-radius: 20px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.button {
-  width: 70px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.3 ease;
-
-}
-
-button p {
-  font-size: 12px;
-}
-
-#portal1 {
-  background-color: #E06939;
-}
-
-#portal2 {
-  background-color: #C5552D;
-}
-
-#portal3 {
-  background-color: #E06939;
-}
-
-#portal4 {
-  background-color: #C5552D;
-}
-
-#portal5 {
-  background-color: #E06939;
-}
-
-#mid_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  border-radius: 20px;
-  overflow: hidden;
-  max-width: 100%;
-  margin-top: 20px;
-  background-color: #131b53;
-  ;
-  ;
-}
-
-.foto {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.grande img {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.foto_maior img {
-  border-radius: 10px
-}
-
-.fotos_menores {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-radius: 0px;
-  overflow: hidden;
-}
-
-.foto_menor img {
-  border-radius: 10px;
-}
-
-
-.pequena {
-  width: 48%;
-}
-
-.pequena img {
-  width: 100%;
-  height: auto;
-  border-radius: 0px;
-}
-
-.links {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-size: 16px;
-  background-color: #ffff;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-/* Parte do CSS do Desktop */
-@media (min-width: 768px) {
-
-
-  .container-mateus {
-    display: none;
-  }
-
-  .container {
-    width: 80%;
-    /* Adjust width as needed */
-    margin: 0 auto;
-    /* Center the container horizontally */
-    padding: 20px;
-    /* Add some padding around the content */
-  }
-
-  .card {
-    display: none;
-  }
-
-
-  .allitem {
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-  }
-
-  .baixada {
-    display: flex;
-    width: 100%;
-    height: 0 auto;
-  }
-
-  .div1,
-  .div2 {
-    padding: 2rem;
-  }
-
-  .contato {
-    width: 100%;
-    height: auto;
-  }
-
-  .loca {
-    width: 100%;
-    height: auto;
-  }
-}
+  
+>>>>>>> marcos
