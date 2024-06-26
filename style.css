@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 @font-face {
   font-family: Helvetica;
@@ -202,8 +202,6 @@ body {
   background-color: #0056b3;
   /* Cor de hover */
 }
-
-.menu {}
 
 .panel-conitainer {
   display: flex;
@@ -746,6 +744,3 @@ button p {
     height: auto;
   }
 }
-
-  
->>>>>>> marcos

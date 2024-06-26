@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: Helvetica;
+  src: url(/public/fonts/Helvetica.ttf);
+}
+
+@font-face {
+  font-family: Helvetica Bold;
+  src: url(/public/fonts/Helvetica-Bold.ttf);
+}
+
+* {
+  font-family: "Helvetica", "Open-Sans";
+}
